@@ -23,12 +23,12 @@
                 
                         <div class="mb-3">
                             <label for="var_npm" class="form-label">NPM:</label>
-                            <input type="text" class="form-control" id="var_npm" placeholder="Input Nomor Pengenal Mahasiswa (NPM)" name="var_npm">
+                            <input type="text" class="form-control" id="var_npm" placeholder="Input Nomor Pengenal Mahasiswa (NPM)" name="var_npm" required>
                         </div>
 
                         <div class="mb-3">
                             <label for="var_nama" class="form-label">Nama:</label>
-                            <input type="text" class="form-control" id="var_nama" placeholder="Input Nama Lengkap Mahasiswa" name="var_nama">
+                            <input type="text" class="form-control" id="var_nama" placeholder="Input Nama Lengkap Mahasiswa" name="var_nama" required>
                         </div>
 
                         <div class="mb-3">
