@@ -8,6 +8,6 @@ $conn = mysqli_connect($host, $user, $pass, $dbname) or die('Database Tidak Terh
 
 // Check connection
 if ($conn -> connect_errno) {
-    echo "Failed to connect to MySQL: " . $conn -> connect_error;
-    exit();
-  }
+  echo "Failed to connect to MySQL: " . $conn -> connect_error;
+  exit();
+}
