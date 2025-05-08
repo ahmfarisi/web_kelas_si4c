@@ -20,7 +20,7 @@
 
         <?php
         include("koneksi.php");
-        $perintah = "SELECT * FROM tbl_pendaftaran";
+        $perintah = "SELECT * FROM tbl_pendaftaran ORDER BY created_at DESC";
         $eksekusi = mysqli_query($conn, $perintah);
 
         if($eksekusi){
